@@ -1,2 +1,2 @@
 # autorv3
-Setup multiple users for Tor Hidden Service Version 3. Also generates a script for each client setup
+Generate multiple Hidden Service V3 host and client files.
