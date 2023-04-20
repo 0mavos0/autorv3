@@ -1,4 +1,4 @@
-#!/bin/python3
+#!torv3_auth
 
 import sys
 import os
@@ -12,6 +12,7 @@ import re
 # set variables
 auth_type = "descriptor"
 keytype = "x25519"
+hiddenservicedir = ""
 
 # create a graphical interface
 #root = tk.Tk()
@@ -66,7 +67,7 @@ while run_again != "n":
 
 	# create a file containing python script
 	python_file = open("client_config.py", "w")
-	python_file.write("#!/usr/bin/python3\n")
+	python_file.write("#!/usr/bin/python3.11\n")
 	python_file.write("import sys\n")
 	python_file.write("import os\n")
 
